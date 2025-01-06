@@ -1,0 +1,103 @@
+body {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-left: 100px;
+  
+
+  
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-pararaph {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.second-paragraph {
+  font-size: 50px;
+  font-weight: bold;
+}
+.header {
+  
+}
+
+.x-logo {
+  width: 30px;
+  
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.google-grid,.apple-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin-top: 10px;
+}
+
+.apple-grid {
+  margin-bottom: 10px;
+}
+
+.or {
+  justify-content: center;
+}
+
+.google-img {
+  width: 20px;
+  margin-top: 5px;
+  
+}
+
+.sign-in-text {
+  margin-top: 7px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+.google {
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  display: flex;
+  margin-left: 10px;
+  height: 30px;
+  width: 250px;
+  justify-content: center;
+  padding-bottom: 0px;
+}
+.sign-in-button {
+  background: none;
+  border: solid;
+  border-color: gray;
+  border-radius: 30px;
+  border-width: 1px;
+  color: rgb(29, 155, 240);
+  width: 250px;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: row;
+  column-gap: 10px;
+  row-gap: 50px;
+  width: 100%;
+  
+  
+  
+}
+
+.as-one {
+  
+ 
+}
